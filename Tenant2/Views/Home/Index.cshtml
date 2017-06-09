@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="http://unpkg.com/botframework-directlinejs/directLine.js"></script>
+<script src="https://unpkg.com/botframework-webchat/botchat.js"></script>
+<link href="https://unpkg.com/botframework-webchat/botchat.css" rel="stylesheet" />
+
+<div id="bot"></div>
+
+<script>
+    var secret = ''; //TODO: put your directline secret from dev.botframework.com here
+
+    var botConnection = new BotChat.DirectLine({
+        secret: secret
+    });
+
+    BotChat.App({
+        botConnection: botConnection,
+        user: { id: "some-id", name: "some-name" },
+        resize: 'detect'
+    }, document.getElementById("bot"));
+
+    botConnection
+        .postActivity({ type: "event", value: "tenant2", from: { id: "me" }, name: "token" })
+        .subscribe(id => console.log("success"));
+
+</script>

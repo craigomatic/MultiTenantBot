@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantBot", "MultiTenantBot\MultiTenantBot.csproj", "{6257C432-DBB2-4E14-897D-617E5104DEDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant1", "Tenant1\Tenant1.csproj", "{96DC32A8-DA0B-476B-B50C-CFAA69D5B3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant2", "Tenant2\Tenant2.csproj", "{B468B0BA-FB7A-4801-B19B-1FC712C3ACFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6257C432-DBB2-4E14-897D-617E5104DEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6257C432-DBB2-4E14-897D-617E5104DEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6257C432-DBB2-4E14-897D-617E5104DEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6257C432-DBB2-4E14-897D-617E5104DEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DC32A8-DA0B-476B-B50C-CFAA69D5B3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DC32A8-DA0B-476B-B50C-CFAA69D5B3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DC32A8-DA0B-476B-B50C-CFAA69D5B3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DC32A8-DA0B-476B-B50C-CFAA69D5B3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B468B0BA-FB7A-4801-B19B-1FC712C3ACFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B468B0BA-FB7A-4801-B19B-1FC712C3ACFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B468B0BA-FB7A-4801-B19B-1FC712C3ACFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B468B0BA-FB7A-4801-B19B-1FC712C3ACFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
